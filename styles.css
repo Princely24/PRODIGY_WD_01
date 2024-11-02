@@ -36,6 +36,19 @@ nav ul li a {
     transition: background-color 0.3s, color 0.3s;
 }
 
+#navbar ul li a:hover {
+    background-color: #555;
+    color: #ffeb3b;
+    border-radius: 5px;
+  }
+  
+  /* Scroll effect styling */
+  .scrolled {
+    background-color: #69a6ec;
+    box-shadow: 0 2px 10px rgba(7, 153, 221, 0.3);
+  }
+  
+
 /* Hero Section */
 .hero {
     display: flex;
