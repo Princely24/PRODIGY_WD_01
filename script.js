@@ -1,11 +1,11 @@
-// script.js
+// JavaScript for adding scroll effect
+window.addEventListener('scroll', () => {
+    const navbar = document.getElementById('navbar');
 
-// Change the navbar style when scrolling
-window.onscroll = function() {
-    var navbar = document.getElementById("navbar");
-    if (window.pageYOffset > 100) {
-        navbar.classList.add("scrolled");
+    if (window.scrollY > 50) {
+      navbar.classList.add('scrolled');
     } else {
-        navbar.classList.remove("scrolled");
+      navbar.classList.remove('scrolled');
     }
-};
+});
+  
